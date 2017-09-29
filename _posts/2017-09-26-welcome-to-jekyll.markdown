@@ -1,24 +1,21 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-09-26 21:27:05 -0400
-categories: jekyll update
+title:  "My very first post with TABLE of CONTENTS"
+date:   2017-09-26 17:19:51 -0400
+categories: personal
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Here is a table of contents describing me.
+<div id="toc_container">
+<p class="toc_title">Contents</p>
+  <li>1 My basic Info
+  <ul>
+    <li><a href="eagerassassin.github.io/Video/">1.1 Videos I like 1</a></li>
+    <li><a href="eagerassassin.github.io/personal/2017/09/17/Photos.html">1.2 Photos of me 2</a></li>
+  </ul>
+</li>
+<li><a href="#Second_Point_Header">2 My LinkedIn Link</a></li>
+<li><a href="http://cornellcuprobotics.com">3 The club I am in: Cornell Cup Robotics</a></li>
+</div>
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
